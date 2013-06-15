@@ -1,0 +1,21 @@
+name: DPrivatePlugin
+version: 1.5.2
+main: com.desiringsolid.info.Main
+author: DesiringSolid
+description: This is a private plugin
+
+commands:
+   creative:
+     description: Set your GameMode to Creative
+     default: op
+     aliases: [creative, crea, c]
+   survival:
+     description: Set your GameMode to Survival
+     default: op
+     aliases: [survival, surv, s]
+   tp:
+     description: Teleport to a Player
+     default: op
+   tp2:
+     description: Teleport a Player to you
+     default: op
