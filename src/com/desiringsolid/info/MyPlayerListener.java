@@ -11,7 +11,7 @@ public class MyPlayerListener implements Listener {
 	public void onBlockBreak(BlockBreakEvent event){
 		Player player = event.getPlayer();
     	if(event.getBlock().getType().getId() == 56 ){
-    	player.sendMessage(ChatColor.AQUA + "You just mined a diamond");
+    	player.sendMessage(ChatColor.AQUA + "You have found a Diamond ore!");
     	}
 	}
 }

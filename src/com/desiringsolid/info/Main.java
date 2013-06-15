@@ -1,4 +1,4 @@
-// Version 0.3
+// Version 1.0.0
 package com.desiringsolid.info;
 import org.bukkit.ChatColor;
 import org.bukkit.GameMode;
